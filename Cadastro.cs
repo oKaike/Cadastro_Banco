@@ -3,7 +3,7 @@ using System;
 internal class Cadastro : Cliente
 {
     public string opcao;
-    public Cliente[] cadastro = new Cliente[4];
+    public Cliente[] cadastro = new Cliente[11];
 
     public override void CadastrarCliente()
     {
