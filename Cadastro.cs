@@ -26,7 +26,7 @@ internal class Cadastro : Cliente
             cadastro[i].CadastrarCliente();
 
             // Prioridade para idosos
-            if (cadastro[i].idade >= 80 && i != 0)
+            if (cadastro[i].idade >= 60 && i != 0)
             {
                 Cliente temp = cadastro[0];
                 cadastro[0] = cadastro[i];
