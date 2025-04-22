@@ -84,6 +84,7 @@ internal class Cadastro : Cliente
                 {
                     if (cadastro[j] != null)
                         Console.WriteLine((j + 1) + "." + cadastro[j].nome);
+                        CadastrarCliente();
                 }
             }
         }
@@ -103,6 +104,7 @@ internal class Cadastro : Cliente
                 cadastro[cadastro.Length - 1] = null;
 
                 Console.WriteLine("Cliente atendido. Fila atualizada.");
+                CadastrarCliente();
             }
             else
             {
